@@ -2,6 +2,6 @@
 \beamer@sectionintoc {1}{Présentation du stage}{3}{0}{1}
 \beamer@sectionintoc {2}{Compréhension de l'algorithme TFA et des ZKPs (Zero-Knowledge Proofs)}{7}{0}{2}
 \beamer@sectionintoc {3}{Travaux effectués}{19}{0}{3}
-\beamer@sectionintoc {4}{Évaluation des performances}{31}{0}{4}
-\beamer@sectionintoc {5}{Ouverture sur l'algorithme TFA++}{32}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{33}{0}{6}
+\beamer@sectionintoc {4}{Évaluation des performances}{39}{0}{4}
+\beamer@sectionintoc {5}{Ouverture sur l'algorithme TFA++}{40}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{41}{0}{6}

@@ -409,6 +409,40 @@
 
 \end{frame}
 
+\begin{frame}
+\frametitle{Réduction du nombre de variables}
+\begin{center}
+\begin{tikzpicture}[
+  scale=0.8, transform shape,
+  node distance=1cm and 3cm,
+  process/.style={rectangle, draw=black, rounded corners, minimum width=4.8cm, minimum height=1cm, align=center},
+  comment/.style={rectangle, draw=gray, fill=gray!10, rounded corners, minimum width=5cm, align=left, font=\small},
+  arrow/.style={-{Latex}, thick}
+]
+
+% Version verbeuse
+\node<1->[draw=none] (before) {\textbf{Code non optimisé}};
+\node<2->[process, below=of before] (v1) {let a = x + 1};
+\node<3->[process, below=of v1] (v2) {let b = a * 2};
+\node<4->[process, below=of v2] (v3) {let c = b - 3};
+\node<5->[process, below=of v3] (vres) {Résultat final = c};
+
+\draw<3->[arrow] (v1) -- (v2);
+\draw<4->[arrow] (v2) -- (v3);
+\draw<5->[arrow] (v3) -- (vres);
+
+% Version optimisée
+\node<1->[draw=none, right=4cm of before] (after) {\textbf{Code optimisé}};
+\node<6->[process, below=of after] (opt1) {let res = ((x + 1) * 2) - 3};
+\node<7->[process, below=of opt1] (opt2) {Résultat final = res};
+\end{tikzpicture}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Mémoïsation}
+
+\end{frame}
 \section{Évaluation des performances}
 
 \section{Ouverture sur l'algorithme TFA++}
