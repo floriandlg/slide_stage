@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.7)  13 JUN 2025 11:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.7)  14 JUN 2025 18:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -826,7 +826,7 @@ LaTeX Info: Redefining \degres on input line 52.
 LaTeX Info: Redefining \up on input line 52.
  (./main.nav)
 
-<little_logo_prepa.png, id=79, 903.375pt x 903.375pt>
+<little_logo_prepa.png, id=75, 903.375pt x 903.375pt>
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
 Package pdftex.def Info: little_logo_prepa.png  used on input line 54.
@@ -850,57 +850,57 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 61.
 [3
 
 ]
-
-File: little_logo_prepa.png Graphic file (type png)
-<use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 65.
-(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
-[4
-
-]
-<logo_loria.png, id=218, 195.6108pt x 178.7478pt>
+<logo_loria.png, id=184, 195.6108pt x 178.7478pt>
 File: logo_loria.png Graphic file (type png)
 <use logo_loria.png>
-Package pdftex.def Info: logo_loria.png  used on input line 144.
+Package pdftex.def Info: logo_loria.png  used on input line 140.
 (pdftex.def)             Requested size: 130.04652pt x 118.83577pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 144.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 140.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 144.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 140.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 144.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 140.
  (c:/texlive/2025/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 144.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 140.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
-[5
+[4
 
  <./logo_loria.png>]
-<logo_simbiot-removebg-preview.png, id=251, 301.125pt x 125.46875pt>
+<logo_simbiot-removebg-preview.png, id=217, 301.125pt x 125.46875pt>
 File: logo_simbiot-removebg-preview.png Graphic file (type png)
 <use logo_simbiot-removebg-preview.png>
-Package pdftex.def Info: logo_simbiot-removebg-preview.png  used on input line 195.
+Package pdftex.def Info: logo_simbiot-removebg-preview.png  used on input line 191.
 (pdftex.def)             Requested size: 130.04652pt x 54.1879pt.
 
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 195.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 191.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
-[6
+[5
 
  <./logo_simbiot-removebg-preview.png>] (./main.toc)
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 197.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 193.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+[6
+
+]
+
+File: little_logo_prepa.png Graphic file (type png)
+<use little_logo_prepa.png>
+Package pdftex.def Info: little_logo_prepa.png  used on input line 217.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [7
 
@@ -908,23 +908,34 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 197.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 234.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 217.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [8
 
 ]
+<zkpimg.png, id=383, 491.58656pt x 492.33937pt>
+File: zkpimg.png Graphic file (type png)
+<use zkpimg.png>
+Package pdftex.def Info: zkpimg.png  used on input line 231.
+(pdftex.def)             Requested size: 208.07048pt x 208.38878pt.
+<risczero.jpg, id=384, 1003.75pt x 565.11125pt>
+File: risczero.jpg Graphic file (type jpg)
+<use risczero.jpg>
+Package pdftex.def Info: risczero.jpg  used on input line 231.
+(pdftex.def)             Requested size: 208.07048pt x 117.14198pt.
+
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 234.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 231.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [9
 
-]
+ <./zkpimg.png> <./risczero.jpg>] (./main.toc)
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 234.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 233.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [10
 
@@ -932,7 +943,7 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 234.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 234.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 267.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [11
 
@@ -940,29 +951,23 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 234.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 234.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 267.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [12
 
 ]
-<risczero.jpg, id=448, 1003.75pt x 565.11125pt>
-File: risczero.jpg Graphic file (type jpg)
-<use risczero.jpg>
-Package pdftex.def Info: risczero.jpg  used on input line 244.
-(pdftex.def)             Requested size: 301.12732pt x 169.53468pt.
-
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 244.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 267.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [13
 
- <./risczero.jpg>]
+]
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 276.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 267.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [14
 
@@ -970,15 +975,15 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 276.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 276.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 267.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [15
 
-]
+{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 276.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 318.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [16
 
@@ -986,7 +991,7 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 276.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 276.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 318.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [17
 
@@ -994,31 +999,61 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 276.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 276.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 318.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [18
 
-] (./main.toc)
+]
+Underfull \hbox (badness 1655) in paragraph at lines 365--365
+[][][]  []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+
+ []
+
+
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 278.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 365.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [19
 
 ]
+Underfull \hbox (badness 1655) in paragraph at lines 365--365
+[][][]  [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+
+ []
+
+
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 312.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 365.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [20
 
 ]
+Underfull \hbox (badness 1655) in paragraph at lines 365--365
+[][][]  [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+
+ []
+
+
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 312.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 365.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [21
 
@@ -1026,7 +1061,7 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 312.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 312.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 395.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [22
 
@@ -1034,7 +1069,7 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 312.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 312.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 395.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [23
 
@@ -1042,15 +1077,15 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 312.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 312.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 395.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [24
 
-{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+]
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 363.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 395.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [25
 
@@ -1058,7 +1093,7 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 363.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 363.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 395.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [26
 
@@ -1066,117 +1101,95 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 363.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 363.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 395.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [27
 
 ]
-Underfull \hbox (badness 1655) in paragraph at lines 410--410
-[][][]  []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
-
- []
-
-
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 410.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 395.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [28
 
 ]
-Underfull \hbox (badness 1655) in paragraph at lines 410--410
-[][][]  [][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
-
- []
-
-
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 410.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 436.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [29
 
 ]
-Underfull \hbox (badness 1655) in paragraph at lines 410--410
-[][][]  [][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
-
- []
-
-
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 410.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 436.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [30
 
-]
+] (./main.toc)
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 440.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 437.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [31
 
 ]
+<benchmark_contracts.pdf, id=1017, 1214.13597pt x 727.03621pt>
+File: benchmark_contracts.pdf Graphic file (type pdf)
+<use benchmark_contracts.pdf>
+Package pdftex.def Info: benchmark_contracts.pdf  used on input line 444.
+(pdftex.def)             Requested size: 303.53325pt x 181.7586pt.
+
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 440.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 444.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [32
 
-]
+ <./benchmark_contracts.pdf>]
+<benchmark_nodes.pdf, id=1096, 1214.13597pt x 727.03621pt>
+File: benchmark_nodes.pdf Graphic file (type pdf)
+<use benchmark_nodes.pdf>
+Package pdftex.def Info: benchmark_nodes.pdf  used on input line 451.
+(pdftex.def)             Requested size: 303.53325pt x 181.7586pt.
+
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 440.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 451.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [33
 
-]
+ <./benchmark_nodes.pdf>]
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 440.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 473.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [34
 
-]
+] (./main.toc)
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 440.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 475.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [35
 
 ]
 
-File: little_logo_prepa.png Graphic file (type png)
-<use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 440.
-(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [36
 
-]
+] (./main.toc)
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 440.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 482.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [37
 
@@ -1184,39 +1197,39 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 440.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 445.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 517.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [38
 
-] (./main.toc)
+]
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 446.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 517.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [39
 
-] (./main.toc)
+]
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 448.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 517.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [40
 
-] (./main.toc)
+]
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 450.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 517.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [41
 
-] (./main.toc)
+]
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 452.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 517.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [42
 
@@ -1224,7 +1237,7 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 452.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 610.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 549.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [43
 
@@ -1232,7 +1245,7 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 610.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 610.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 549.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [44
 
@@ -1240,7 +1253,7 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 610.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 610.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 549.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [45
 
@@ -1248,7 +1261,7 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 610.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 610.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 549.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [46
 
@@ -1256,7 +1269,7 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 610.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 610.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 549.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [47
 
@@ -1264,9 +1277,49 @@ Package pdftex.def Info: little_logo_prepa.png  used on input line 610.
 
 File: little_logo_prepa.png Graphic file (type png)
 <use little_logo_prepa.png>
-Package pdftex.def Info: little_logo_prepa.png  used on input line 610.
+Package pdftex.def Info: little_logo_prepa.png  used on input line 708.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [48
+
+]
+
+File: little_logo_prepa.png Graphic file (type png)
+<use little_logo_prepa.png>
+Package pdftex.def Info: little_logo_prepa.png  used on input line 708.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+[49
+
+]
+
+File: little_logo_prepa.png Graphic file (type png)
+<use little_logo_prepa.png>
+Package pdftex.def Info: little_logo_prepa.png  used on input line 708.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+[50
+
+]
+
+File: little_logo_prepa.png Graphic file (type png)
+<use little_logo_prepa.png>
+Package pdftex.def Info: little_logo_prepa.png  used on input line 708.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+[51
+
+]
+
+File: little_logo_prepa.png Graphic file (type png)
+<use little_logo_prepa.png>
+Package pdftex.def Info: little_logo_prepa.png  used on input line 708.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+[52
+
+]
+
+File: little_logo_prepa.png Graphic file (type png)
+<use little_logo_prepa.png>
+Package pdftex.def Info: little_logo_prepa.png  used on input line 708.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+[53
 
 ]
 \tf@nav=\write6
@@ -1284,21 +1337,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A6C2A5CE6A347653D2D3CF005BB0E0B6;1272.
+(rerunfilecheck)             Checksum: E390636B8D578140B20530F516E2067B;1060.
  ) 
 Here is how much of TeX's memory you used:
- 29482 strings out of 473190
- 593723 string characters out of 5719980
- 992184 words of memory out of 5000000
- 52038 multiletter control sequences out of 15000+600000
- 577575 words of font info for 84 fonts, out of 8000000 for 9000
+ 29660 strings out of 473190
+ 598512 string characters out of 5719980
+ 994701 words of memory out of 5000000
+ 52207 multiletter control sequences out of 15000+600000
+ 579116 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,496b,1028s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss0500.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb>
-Output written on main.pdf (48 pages, 451914 bytes).
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss0500.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb>
+Output written on main.pdf (53 pages, 1522646 bytes).
 PDF statistics:
- 1563 PDF objects out of 1728 (max. 8388607)
- 1399 compressed objects within 14 object streams
- 104 named destinations out of 1000 (max. 500000)
- 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1859 PDF objects out of 2073 (max. 8388607)
+ 1555 compressed objects within 16 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 432 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -61,10 +61,6 @@
 \section{Présentation du stage}
 
 \begin{frame}
-\frametitle{Contexte}
-\end{frame}
-
-\begin{frame}
 \frametitle{Le Loria}
 
 \begin{tikzpicture}[font=\sffamily, scale=0.4, transform shape, remember picture, overlay]
@@ -199,80 +195,39 @@
 \begin{frame}
 \frametitle{Algorithme TFA}
 
-\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=blue!20]
-\tikzstyle{process} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
-\tikzstyle{arrow} = [thick, ->, >=Stealth]
+\visible<1->{
+\begin{alertblock}{Objectif}
+Calculer les délais maximums (pire cas) que subissent les données dans un réseau à priorités.
+\end{alertblock}
+}
+\visible<2->{
+\begin{block}{Comment ça marche ?}
+  \begin{itemize}
+    \item Les flux ont une priorité (0 à 7) : les plus prioritaires sont traités en premier.
+    \item À chaque nœud du réseau, on calcule combien de temps un flux peut attendre, en prenant en compte :
+    \begin{itemize}
+      \item les flux plus prioritaires,
+      \item le débit disponible,
+      \item la taille des données.
+    \end{itemize}
+  \end{itemize}  
+\end{block}
+}
 
-
-\begin{center}
-\begin{tikzpicture}[node distance=1.5cm, scale=0.9, transform shape]
-
-% Nodes
-\node<1-> (start) [startstop, align=center] {Définir le réseau et les flux \\
-\footnotesize{(topologie, priorités, débit, burst)}};
-
-\node<2-> (prio) [process, below of=start, align=center] {Analyser les priorités \\
-\footnotesize{les flux les plus prioritaires sont traités en premier}};
-
-\node<3-> (impact) [process, below of=prio, align=center] {Évaluer l’impact des flux prioritaires \\
-\footnotesize{sur les flux moins prioritaires à chaque nœud}};
-
-\node<4-> (delays) [process, below of=impact, align=center] {Déterminer le pire temps de traversée \\
-\footnotesize{(latence maximale par flux)}};
-
-\node<5-> (result) [startstop, below of=delays, align=center] {Fournir une borne supérieure \\
-\footnotesize{pour la latence de chaque flux}};
-
-% Arrows
-\draw<2-> [arrow] (start) -- (prio);
-\draw<3-> [arrow] (prio) -- (impact);
-\draw<4-> [arrow] (impact) -- (delays);
-\draw<5-> [arrow] (delays) -- (result);
-
-\end{tikzpicture}
-\end{center}
 \end{frame}
 
 \begin{frame}
 \frametitle{Zero-Knowledge Proofs (ZKPs)}
 
-\begin{center}
-  \begin{figure}
-    \includegraphics[scale=0.3]{risczero.jpg}
-  \end{figure}
-\end{center}
-\end{frame}
-
-\begin{frame}
-\frametitle{Utilité des preuves}
-
-\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=blue!20]
-\tikzstyle{process} = [rectangle, minimum width=4.5cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
-\tikzstyle{external} = [rectangle, minimum width=4cm, minimum height=1cm, text centered, draw=black, fill=green!20]
-\tikzstyle{arrow} = [thick,->,>=Stealth]
-
-\begin{center}
-\begin{tikzpicture}[node distance=1.6cm, scale=0.85, transform shape]
-
-% Nodes
-\node<1-> (exec) [process, align=center] {Exécution de TFA \\
-\footnotesize{calcul des bornes de latence}};
-\node<2-> (zkp) [process, below of=exec, align=center] {Génération de la preuve ZKP \\
-\footnotesize{preuve que le calcul a été fait de manière honnête}};
-\node<3-> (publish) [process, below of=zkp, align=center] {Publication sur la blockchain \\
-\footnotesize{preuve accessible par tout le monde}};
-\node<4-> (verify) [external, below of=publish, align=center] {Vérification par un contrat intelligent \\
-\footnotesize{preuve validée automatiquement}};
-\node<5-> (trust) [startstop, below of=verify, align=center] {Confiance garantie};
-
-% Arrows
-\draw<2-> [arrow] (exec) -- (zkp);
-\draw<3-> [arrow] (zkp) -- (publish);
-\draw<4-> [arrow] (publish) -- (verify);
-\draw<5-> [arrow] (verify) -- (trust);
-
-\end{tikzpicture}
-\end{center}
+\begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{zkpimg.png}
+\end{minipage}
+\hfill
+\begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{risczero.jpg}
+\end{minipage}
 \end{frame}
 
 \section{Travaux effectués}
@@ -442,14 +397,157 @@
 \begin{frame}
 \frametitle{Mémoïsation}
 
+\begin{center}
+\begin{tikzpicture}[scale=0.7, transform shape,
+  node distance=1cm and 2.8cm,
+  process/.style={rectangle, draw=black, rounded corners, minimum width=3cm, minimum height=1cm, align=center},
+  storage/.style={rectangle, draw=blue, minimum width=2.5cm, minimum height=0.8cm, fill=blue!10},
+  arrow/.style={-{Latex}, thick}
+]
+
+\visible<1->{
+\node[draw=none] (before) {\textbf{Avant}};
+
+\node[process, align=center, below=of before] (naive_start) {Calculer le burst\\ de la classe $c$};
+\node[process, below=of naive_start] (naive_sum) {Recalculer $\sum_{c'>c} b^c_n$};
+\node[process, below=of naive_sum] (naive_compute) {Suite des calculs ...};
+
+\draw[arrow] (naive_start) -- (naive_sum);
+\draw[arrow] (naive_sum) -- (naive_compute);
+
+}
+
+\visible<2->{
+\node[draw=none, right=4cm of before] (after) {\textbf{Après}};
+
+\node[process, align=center, below=of after] (opt_start) {Calculer le burst\\ de la classe $c$};
+\node[storage, below=of opt_start] (opt_compute) {Stocker résultat pour la classe $c$};
+\node[storage, below=of opt_compute] (opt_reuse) {Réutiliser $\sum_{c'>c} b^c_n$};
+\node[process, below=of opt_reuse] (opt_store) {Suite des calculs ...};
+
+\draw[arrow] (opt_start) -- (opt_compute);
+\draw[arrow] (opt_compute) -- (opt_reuse);
+\draw[arrow] (opt_reuse) -- (opt_store);
+}
+
+\end{tikzpicture}
+\end{center}
+
 \end{frame}
 \section{Évaluation des performances}
 
-\section{Ouverture sur l'algorithme TFA++}
+\begin{frame}
+  \frametitle{Graphe de l'évolution du nombre de cycles (nombre de contrats fixe)}
+  \begin{center}
+    \includegraphics[scale=0.25]{benchmark_contracts.pdf}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Graphe de l'évolution du nombre de cycles (nombre de noeuds fixe)}
+  \begin{center}
+    \includegraphics[scale=0.25]{benchmark_nodes.pdf}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Tableau de synthèse}
+  \begin{center}
+    \begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|r|r|r|}
+    \hline
+    \textbf{Optimisation} & \textbf{Cycles moyens} & \textbf{Accélération} & \textbf{Réduction (\%)} \\
+    \hline
+    without\_optimization.csv & 31941281.56 & 1.00x & 0.00\% \\
+    without\_f32.csv       & 29764448.71 & 1.07x & 6.82\%  \\
+    hashmap\_to\_btmap.csv & 14783811.13 & 2.16x & 53.72\% \\
+    save\_burst\_rate.csv  & 12123104.14 & 2.63x & 62.05\% \\
+    hashset\_to\_btset.csv &  6886004.05 & 4.64x & 78.44\% \\
+    use\_sha2\_risc0.csv   &  6505704.11 & 4.91x & 79.63\% \\
+    clean\_code.csv        &  6158727.40 & 5.19x & 80.72\% \\
+    \hline
+    \end{tabular}
+    \end{table}
+  \end{center}
+\end{frame}
 
 \section{Conclusion}
+\begin{frame}[plain]
+    \frametitle{Conclusion}
+    \centering
+    {\Huge{Merci pour votre écoute}}
+\end{frame}
 
 \section*{Bonus}
+\begin{frame}
+\frametitle{Algorithme TFA (vulgarisé)}
+  \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=blue!20]
+\tikzstyle{process} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{arrow} = [thick, ->, >=Stealth]
+
+
+\begin{center}
+\begin{tikzpicture}[node distance=1.5cm, scale=0.9, transform shape]
+
+% Nodes
+\node<1-> (start) [startstop, align=center] {Définir le réseau et les flux \\
+\footnotesize{(topologie, priorités, débit, burst)}};
+
+\node<2-> (prio) [process, below of=start, align=center] {Analyser les priorités \\
+\footnotesize{les flux les plus prioritaires sont traités en premier}};
+
+\node<3-> (impact) [process, below of=prio, align=center] {Évaluer l’impact des flux prioritaires \\
+\footnotesize{sur les flux moins prioritaires à chaque nœud}};
+
+\node<4-> (delays) [process, below of=impact, align=center] {Déterminer le pire temps de traversée \\
+\footnotesize{(latence maximale par flux)}};
+
+\node<5-> (result) [startstop, below of=delays, align=center] {Fournir une borne supérieure \\
+\footnotesize{pour la latence de chaque flux}};
+
+% Arrows
+\draw<2-> [arrow] (start) -- (prio);
+\draw<3-> [arrow] (prio) -- (impact);
+\draw<4-> [arrow] (impact) -- (delays);
+\draw<5-> [arrow] (delays) -- (result);
+
+\end{tikzpicture}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Utilité des preuves}
+
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=blue!20]
+\tikzstyle{process} = [rectangle, minimum width=4.5cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{external} = [rectangle, minimum width=4cm, minimum height=1cm, text centered, draw=black, fill=green!20]
+\tikzstyle{arrow} = [thick,->,>=Stealth]
+
+\begin{center}
+\begin{tikzpicture}[node distance=1.6cm, scale=0.85, transform shape]
+
+% Nodes
+\node<1-> (exec) [process, align=center] {Exécution de TFA \\
+\footnotesize{calcul des bornes de latence}};
+\node<2-> (zkp) [process, below of=exec, align=center] {Génération de la preuve ZKP \\
+\footnotesize{preuve que le calcul a été fait de manière honnête}};
+\node<3-> (publish) [process, below of=zkp, align=center] {Publication sur la blockchain \\
+\footnotesize{preuve accessible par tout le monde}};
+\node<4-> (verify) [external, below of=publish, align=center] {Vérification par un contrat intelligent \\
+\footnotesize{preuve validée automatiquement}};
+\node<5-> (trust) [startstop, below of=verify, align=center] {Confiance garantie};
+
+% Arrows
+\draw<2-> [arrow] (exec) -- (zkp);
+\draw<3-> [arrow] (zkp) -- (publish);
+\draw<4-> [arrow] (publish) -- (verify);
+\draw<5-> [arrow] (verify) -- (trust);
+
+\end{tikzpicture}
+\end{center}
+\end{frame}
+
 \begin{frame}
 \begin{columns}
   % Left column: Steps of the algorithm
